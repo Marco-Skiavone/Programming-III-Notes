@@ -1,3 +1,5 @@
+# Lock
+
 > Ci sono diversi tipi di classi che implementano i **lock** (Esiste l'**interfaccia** `Lock`). Una delle più utili e facili da usare è il [ReentrantLock](https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/java/util/concurrent/locks/ReentrantLock.html). 
 
 Per fare un esempio di ***ReentrantLock***, si veda come vengono facilmente usati metodi `lock()` e `unlock()`. Essi sostituiscono l'uso del **[synchronized](Synchronized.md)**, ma bisogna fare maggiore attenzione ai **deadlock**, che possono farsi presenti più facilmente, in caso di più istanze in uso:

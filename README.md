@@ -1,5 +1,6 @@
 # Programming-III-Notes
-Questa repo è un **vault Obsidian** per tenere taccia dei concetti più importanti del corso di Programmazione III.
+
+Questa *repo* è un **vault Obsidian** per tenere taccia dei concetti più importanti del corso di *Programmazione III*.
 
 ### Index:
 - [Lock e proprietà in Java](Lock.md)

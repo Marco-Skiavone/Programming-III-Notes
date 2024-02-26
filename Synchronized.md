@@ -1,3 +1,5 @@
+# Synchronized
+
 Il `synchronized` può essere usato in diverse maniere:
 #### Firme di Metodi Dinamici:
 > [!example] Esempio
