@@ -30,7 +30,7 @@ I metodi `notify` e `notifyAll` dovrebbero a loro volta essere **sempre** usati 
 > ```
 
 > [!warning] Attenzione!
-> Non si può decidere quale **Thread** avrà l'uso della CPU. Il fatto che venga svegliato, non vuol dire che andrà in esecuzione per primo. Pertanto, si fa necessario l'uso di blocchi di [synchronized](Synchronized).
+> Non si può decidere quale **Thread** avrà l'uso della CPU. Il fatto che venga svegliato, non vuol dire che andrà in esecuzione per primo. Pertanto, si fa necessario l'uso di blocchi di [synchronized](<./Synchronized.md>).
 > > *"The awakened thread will compete in the usual manner with any other threads that might be actively competing to synchronize on this object; for example, the awakened thread enjoys no reliable privilege or disadvantage in being the next thread to lock this object."* 
 >
 > \- cit. [docs.oracle](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--)
