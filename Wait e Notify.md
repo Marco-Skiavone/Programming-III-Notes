@@ -3,7 +3,7 @@
 > [!example] Esempio: wait
 > ``` java
 > synchronized (obj) {
-> 	while(<condition>)
+> 	while(/*condition*/) {
 > 		obj.wait();
 > 		 // ...
 > 	}
@@ -24,7 +24,7 @@ I metodi `notify` e `notifyAll` dovrebbero a loro volta essere **sempre** usati 
 > 
 > ``` java
 > public static synchronized void update() {
-> 	// ... <updates on this>
+> 	// ... /*updates on this*/
 > 	this.notify();
 > }
 > ```

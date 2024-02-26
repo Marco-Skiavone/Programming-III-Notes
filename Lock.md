@@ -28,14 +28,14 @@ public class Esempio {
 > 
 > // ...
 > 
-> while(<condition>)
+> while(/*condition*/)
 > 	notFull.await();
 > push();
 > notEmpty.signal();
 > 
 > // ...
 > 
-> while(<condition>)
+> while(/*condition*/)
 > 	notEmpty.await();
 > pop();
 > notFull.signal();
