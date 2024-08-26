@@ -6,4 +6,4 @@ Questa *repo* è un **vault Obsidian** per tenere taccia dei concetti più impor
 - [Lock e proprietà in Java](Lock.md)
 - [Synchronized](Synchronized.md)
 - [Socket intro & URLs alla documentazione](<Socket Java.md>)
-- ["Monitor Methods" (Object.wait() e Object.notify())](<Wait e Notify>)
+- ["Monitor Methods" (Object.wait() e Object.notify())](<Wait e Notify.md>)
